@@ -8,7 +8,7 @@ RUN apt-get update && \
     apt-get -y autoremove && \
     apt-get -y autoclean && \
     pip install --upgrade pip && \
-    pip install uwsgi && \
+    pip install uwsgi
 
 
 # Set up the WSGI app
